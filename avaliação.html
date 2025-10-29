@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avaliação do Serviço</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body class="w3-light-grey">
+
+<header class="w3-container w3-teal w3-center w3-padding-32">
+  <h1>Avalie Nosso Serviço</h1>
+  <p>Ajude-nos a melhorar nosso atendimento!</p>
+</header>
+
+
+<div class="centralizar">
+  <div class="w3-container w3-white w3-card w3-round-large w3-padding-32 form-avaliacao">
+
+    <form action="envia_avaliacao.html" method="post">
+
+      <p>
+        <label>Nome</label>
+        <input class="w3-input w3-border w3-round" type="text" name="nome" placeholder="Seu nome" required>
+      </p>
+
+      <p>
+        <label>E-mail</label>
+        <input class="w3-input w3-border w3-round" type="email" name="email" placeholder="Seu e-mail" required>
+      </p>
+
+      <p>
+        <label>Plano utilizado</label>
+        <select class="w3-select w3-border w3-round" name="plano" required>
+          <option value="" disabled selected>Escolha um plano</option>
+          <option value="basico">Básico</option>
+          <option value="avancado">Avançado</option>
+          <option value="premium">Premium</option>
+        </select>
+      </p>
+
+     <p>
+  <label>Nota do serviço</label>
+  <div class="w3-row w3-center">
+    <div class="w3-col s2">
+      <label class="w3-radio"><input type="radio" name="nota" value="1" required> 1</label>
+    </div>
+    <div class="w3-col s2">
+      <label class="w3-radio"><input type="radio" name="nota" value="2"> 2</label>
+    </div>
+    <div class="w3-col s2">
+      <label class="w3-radio"><input type="radio" name="nota" value="3"> 3</label>
+    </div>
+    <div class="w3-col s2">
+      <label class="w3-radio"><input type="radio" name="nota" value="4"> 4</label>
+    </div>
+    <div class="w3-col s2">
+      <label class="w3-radio"><input type="radio" name="nota" value="5"> 5</label>
+    </div>
+  </div>
+</p>
+
+      <p>
+        <label>Comentário</label>
+        <textarea class="w3-input w3-border w3-round" name="comentario" placeholder="Escreva aqui suas sugestões" rows="5"></textarea>
+      </p>
+
+      <p class="w3-center">
+        <button class="w3-button w3-teal w3-round-large w3-hover-light-blue" type="submit">Enviar Avaliação</button>
+        <a href="index.html" class="w3-button w3-teal w3-round-large w3-hover-light-blue">Voltar</a>
+      </p>
+
+    </form>
+
+  </div>
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-padding-16">
+  <p>©️ 2025 Sua Empresa de Suporte W3.CSS — inovasoft@empresa.com</p>
+</footer>
+
+</body>
+</html>

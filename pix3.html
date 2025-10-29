@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pagamento - Plano Básico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    body {font-family: Arial, sans-serif;}
+  </style>
+</head>
+<body class="w3-light-grey">
+
+<div class="w3-container w3-center w3-padding-64">
+  <div class="w3-card w3-white w3-padding-32 w3-animate-top" style="max-width:500px;margin:auto;">
+    <h2 class="w3-text-green">Plano Premium</h2>
+    <p class="w3-large">Valor: <p>R$199/mês</p></p>
+
+    <div class="w3-section">
+      <h4>Formas de pagamento</h4>
+
+      <div class="w3-container w3-padding w3-border w3-margin-top">
+        <h5>💸 Pagamento via PIX</h5>
+        <p>Escaneie o QR Code abaixo para efetuar o pagamento:</p>
+        <img src="img/codigo_qr-300x300.png"  
+             alt="QR Code PIX" class="w3-image" style="max-width:200px;">
+        <p><b>Chave PIX:</b> suporte@w3css.com</p>
+      </div>
+
+      <div class="w3-container w3-padding w3-border w3-margin-top">
+        <h5>💳 Pagamento com Cartão</h5>
+        <form class="w3-container">
+          <label>Nome no Cartão</label>
+          <input class="w3-input w3-border" type="text" required>
+          <label>Número do Cartão</label>
+          <input class="w3-input w3-border" type="text" maxlength="16" required>
+          <label>Validade</label>
+          <input class="w3-input w3-border" type="month" required>
+          <label>CVV</label>
+          <input class="w3-input w3-border" type="text" maxlength="3" required>
+          <button class="w3-button w3-green w3-margin-top w3-block">Finalizar Pagamento</button>
+        </form>
+      </div>
+    </div>
+
+    <a href="index.html" class="w3-button w3-grey w3-margin-top w3-block">⬅ Voltar aos Planos</a>
+  </div>
+</div>
+
+</body>
+</html>

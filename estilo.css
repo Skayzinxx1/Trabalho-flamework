@@ -1,0 +1,103 @@
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.logo-cmc img {
+  transition: transform 0.3s ease;
+}
+
+.logo-cmc img:hover {
+  transform: scale(1.1);
+}
+
+.menu-cmc {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.menu-item:hover {
+  color: #04AA6D;
+}
+
+.barra-busca {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.barra-busca input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.barra-busca button {
+  background-color: #04AA6D;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.barra-busca button:hover {
+  background-color: #03915f;
+}
+
+
+ .box img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.w3-container-w3-pale-yellow-w3-card-4-box {
+  /* Offset X | Offset Y | Raio de desfoque | Cor da sombra */
+  filter: drop-shadow(0 0 10px #00f);
+}
+
+.box {
+  border-radius: 12px;
+}
+  .centralizar {
+      display: flex;
+      justify-content: center; /* horizontal */
+      align-items: center;     /* vertical */
+      min-height: 80vh;        /* altura mínima da tela */
+    }
+    /* Faz o formulário não ocupar toda a largura da tela */
+    .form-avaliacao {
+      max-width: 600px;
+      width: 100%;
+    }

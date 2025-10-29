@@ -1,0 +1,11 @@
+   .centralizar {
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+      min-height: 80vh;       
+    }
+    
+    .form-avaliacao {
+      max-width: 600px;
+      width: 100%;
+    }
